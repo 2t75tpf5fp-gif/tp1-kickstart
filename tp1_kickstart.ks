@@ -41,8 +41,8 @@ selinux --enforcing
 
 ## Partition layout
 ## ATTENTION AU TYPE DE DISQUE
-ignoredisk --only-use="nvme0n1"
-# ignoredisk --only-use="sda"
+ignoredisk --only-use="sda"
+# ignoredisk --only-use="nvme0n1"
 clearpart --all --initlabel --disklabel="gpt"
 autopart --nohome
 
